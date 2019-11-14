@@ -12,7 +12,7 @@ I choose this data set because it violates all major assumptions.
         4) 46 observations which is extremely low.
         5) Low R-Squared(around 0.3).
 
-    First I am going to do little bit of data cleaning.
+    First I am going to do little bit of data cleaning and Exploratory Data Analysis with nice visualizations.
     
     I'll use linear, lasso, ridge, elasticnet and weighted regression as well as Box-Cox transformation, principal component analysis(PCA). 
     
