@@ -1,5 +1,5 @@
 getwd()
-setwd("/Users/Sam/Desktop/DEU/Supervised_Learning/homework/")
+setwd("your directory here")
 # Importing Data
 df <- read.csv(file = "data.csv",
                sep = ",",header = F,row.names = "V1")
