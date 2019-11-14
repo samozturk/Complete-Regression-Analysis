@@ -1,20 +1,22 @@
-# Complete-Regression-Analysis
-Regression analysis with a data violates all of assumptions
+## Complete-Regression-Analysis
+Regression analysis with a data violates all major assumptions of OLS
 
-This is a demo for how to deal with assumption violations in regression analysis. 
+    This is a demo for how to deal with assumption violations in regression analysis. 
 First thing to check about your regression model is to check if it's violating assumptions or not.
 I choose this data set because it violates all major assumptions.
 
-Problems:
-1) Violating normality assumption.
-2) Violating homoscedasticity.
-3) Multicollinearity.
-4) 46 observations which is extremely low.
-5) Low R-Squared(around 0.3).
+    Problems:
+        1) Violating normality assumption.
+        2) Violating homoscedasticity.
+        3) Multicollinearity.
+        4) 46 observations which is extremely low.
+        5) Low R-Squared(around 0.3).
 
-First I am going to do little bit of data cleaning.
-I'll use linear, lasso, ridge, elasticnet and weighted regression as well as Box-Cox transformation, principal component analysis(PCA). 
-Finally I will use Leave-One-Out Cross Validation to measure the performance of the model because we are low on observations.
+    First I am going to do little bit of data cleaning.
+    
+    I'll use linear, lasso, ridge, elasticnet and weighted regression as well as Box-Cox transformation, principal component analysis(PCA). 
+    
+    Finally I will use Leave-One-Out Cross Validation to measure the performance of the model because we are low on observations.
 
 #
 #  Reference:
@@ -44,7 +46,7 @@ Finally I will use Leave-One-Out Cross Validation to measure the performance of 
 #      B,  the death rate from cirrhosis.
 #
 #    We seek a model of the form:
-#
+#   
 #      B = A0 * X0 + A1 * X1 + A2 * X2 + A3 * X3 + A4 * X4.
 #    
 7 columns
